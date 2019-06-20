@@ -141,7 +141,7 @@ input[type="color"],
 h1,
 h2,
 h3 {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: 300;
     margin: 0;
 }
@@ -803,6 +803,7 @@ font-size: 6rem;
     color: #f9f9f9;
     padding-top: 10px;
     font-size: 80%;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .portfolio p {
     color: #f9f9f9;
@@ -819,7 +820,8 @@ font-size: 6rem;
     color: #000;
 }
 .select-city h4 {
-    color: #ffffff;
+    color: yellow;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .single_portfolio_text{
@@ -869,12 +871,13 @@ font-size: 6rem;
 
 /*Amazing Deliceas Section css */
 .ourPakeg .main_pakeg_content .head_title h3{
-	color:#fff;
+    color:#fff;
+    font-family: 'Nanum Gothic', sans-serif;
 	
 }
 .ourPakeg .main_pakeg_content .head_title h4{
-	color:#fff;
-	font-family: 'Pacifico', cursive;
+	
+    font-family: 'Nanum Gothic', sans-serif;
 	font-size:1.875rem;
 }
 
@@ -1026,7 +1029,7 @@ font-size: 6rem;
 .single_widget h3{
     font-size:1rem;
 
-	font-family: 'Pacifico', cursive;	
+    font-family: 'Nanum Gothic', sans-serif;	
 }
 .single_widget_info p{
 	margin-top:40px;
