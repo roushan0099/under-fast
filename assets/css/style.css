@@ -590,6 +590,7 @@ a.navbar-brand.our_logo{
     left: 0;
     top: -50px;
     width: 25%;
+    padding-top: 40px;
 }
 
 .header_top_menu .call_us_text a{
@@ -668,6 +669,9 @@ a.navbar-brand.our_logo{
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
+.yel {
+    color: yellow;
+}
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
 	color: #da9b31;
@@ -695,7 +699,7 @@ marquee {
 }
 
 	
-}
+
 .main_slider .main_slider_content h1{
 font-size: 6rem;
     font-family: 'Pacifico', cursive;
@@ -951,6 +955,9 @@ font-size: 6rem;
 .gdp h4 {
     color: yellow;
 }
+.gdp-color {
+    color: #f9c954;
+}
 .grow{
 	background:url(yelbodd.png) top center no-repeat scroll;
 	-moz-background-size: cover;
@@ -1028,8 +1035,8 @@ font-size: 6rem;
 
 .single_widget h3{
     font-size:1rem;
-
-    font-family: 'Nanum Gothic', sans-serif;	
+color: yellow;
+	 font-family: 'Nanum Gothic', sans-serif;	
 }
 .single_widget_info p{
 	margin-top:40px;
