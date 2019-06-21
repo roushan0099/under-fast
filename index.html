@@ -9,6 +9,7 @@
         <title>Fast voucher</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -89,12 +90,243 @@
                                 <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
                                         <img src="fvlg.png" height="120px" width="120px" alt="" />
                                    <div class="select-city" id="select-city">
-                                       <h4>Select Your State and City</h4>
-                                       <div class="city">
-                                       <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select>
-                                       <select id ="state" class="form-control" required></select>
-                                       <script language="javascript">print_state("sts");</script>
-                                       </div>
+                                       <h4>Select Your City</h4>
+                                       <select name="location" value="" style="width:230" >
+                                        <option selected="selected">Pune</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#000000"><i>-Top Metropolitan Cities-</i></font></option>
+                                        <option>Ahmedabad</option> 
+                                        <option>Bengaluru/Bangalore</option>
+                                        <option>Chandigarh</option>
+                                        <option>Chennai</option>
+                                        <option>Delhi</option>
+                                        <option>Gurgaon</option>
+                                        <option>Hyderabad/Secunderabad</option>
+                                        <option>Kolkatta</option>
+                                        <option>Mumbai</option>
+                                        <option>Noida</option>
+                                        
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Andhra Pradesh-</i></font></option>
+                                        <option>Anantapur</option>
+                                        <option>Guntakal</option>
+                                        <option>Guntur</option>
+                                        <option>Hyderabad/Secunderabad</option>
+                                        <option>kakinada</option>
+                                        <option>kurnool</option>
+                                        <option>Nellore</option>
+                                        <option>Nizamabad</option>
+                                        <option>Rajahmundry</option>
+                                        <option>Tirupati</option>
+                                        <option>Vijayawada</option>
+                                        <option>Visakhapatnam</option>
+                                        <option>Warangal</option>
+                                        <option>Andra Pradesh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Arunachal Pradesh-</i></font></option>
+                                        <option>Itanagar</option>
+                                        <option>Arunachal Pradesh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Assam-</i></font></option>
+                                        <option>Guwahati</option>
+                                        <option>Silchar</option>
+                                        <option>Assam-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Bihar-</i></font></option>
+                                        <option>Bhagalpur</option>
+                                        <option>Patna</option>
+                                        <option>Bihar-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Chhattisgarh-</i></font></option>
+                                        <option>Bhillai</option>
+                                        <option>Bilaspur</option>
+                                        <option>Raipur</option>
+                                        <option>Chhattisgarh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Goa-</i></font></option>
+                                        <option>Panjim/Panaji</option>
+                                        <option>Vasco Da Gama</option>
+                                        <option>Goa-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Gujarat-</i></font></option>
+                                        <option>Ahmedabad</option>
+                                        <option>Anand</option>
+                                        <option>Ankleshwar</option>
+                                        <option>Bharuch</option>
+                                        <option>Bhavnagar</option>
+                                        <option>Bhuj</option>
+                                        <option>Gandhinagar</option>
+                                        <option>Gir</option>
+                                        <option>Jamnagar</option>
+                                        <option>Kandla</option>
+                                        <option>Porbandar</option>
+                                        <option>Rajkot</option>
+                                        <option>Surat</option>
+                                        <option>Vadodara/Baroda</option>
+                                        <option>Valsad</option>
+                                        <option>Vapi</option>
+                                        <option>Gujarat-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Haryana-</i></font></option>
+                                        <option>Ambala</option>
+                                        <option>Chandigarh</option>
+                                        <option>Faridabad</option>
+                                        <option>Gurgaon</option>
+                                        <option>Hisar</option>
+                                        <option>Karnal</option>
+                                        <option>Kurukshetra</option>
+                                        <option>Panipat</option>
+                                        <option>Rohtak</option>
+                                        <option>Haryana-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Himachal Pradesh-</i></font></option>
+                                        <option>Dalhousie</option>
+                                        <option>Dharmasala</option>
+                                        <option>Kulu/Manali</option>
+                                        <option>Shimla</option>
+                                        <option>Himachal Pradesh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Jammu and Kashmir-</i></font></option>
+                                        <option>Jammu</option>
+                                        <option>Srinagar</option>
+                                        <option>Jammu and Kashmir-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Jharkhand-</i></font></option>
+                                        <option>Bokaro</option>
+                                        <option>Dhanbad</option>
+                                        <option>Jamshedpur</option>
+                                        <option>Ranchi</option>
+                                        <option>Jharkhand-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Karnataka-</i></font></option>
+                                        <option>Bengaluru/Bangalore</option>
+                                        <option>Belgaum</option>
+                                        <option>Bellary</option>
+                                        <option>Bidar</option>
+                                        <option>Dharwad</option>
+                                        <option>Gulbarga</option>
+                                        <option>Hubli</option>
+                                        <option>Kolar</option>
+                                        <option>Mangalore</option>
+                                        <option>Mysoru/Mysore</option>
+                                        <option>Karnataka-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Kerala-</i></font></option>
+                                        <option>Calicut</option>
+                                        <option>Cochin</option>
+                                        <option>Ernakulam</option>
+                                        <option>Kannur</option>
+                                        <option>Kochi</option>
+                                        <option>Kollam</option>
+                                        <option>Kottayam</option>
+                                        <option>Kozhikode</option>
+                                        <option>Palakkad</option>
+                                        <option>Palghat</option>
+                                        <option>Thrissur</option>
+                                        <option>Trivandrum</option>
+                                        <option>Kerela-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Madhya Pradesh-</i></font></option>
+                                        <option>Bhopal</option>
+                                        <option>Gwalior</option>
+                                        <option>Indore</option>
+                                        <option>Jabalpur</option>
+                                        <option>Ujjain</option>
+                                        <option>Madhya Pradesh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Maharashtra-</i></font></option>
+                                        <option>Ahmednagar</option>
+                                        <option>Aurangabad</option>
+                                        <option>Jalgaon</option>
+                                        <option>Kolhapur</option>
+                                        <option>Mumbai</option>
+                                        <option>Mumbai Suburbs</option>
+                                        <option>Nagpur</option>
+                                        <option>Nasik</option>
+                                        <option>Navi Mumbai</option>
+                                        <option>Pune</option>
+                                        <option>Solapur</option>
+                                        <option>Maharashtra-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Manipur-</i></font></option>
+                                        <option>Imphal</option>
+                                        <option>Manipur-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Meghalaya-</i></font></option>
+                                        <option>Shillong</option>
+                                        <option>Meghalaya-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Mizoram-</i></font></option>
+                                        <option>Aizawal</option>
+                                        <option>Mizoram-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Nagaland-</i></font></option>
+                                        <option>Dimapur</option>
+                                        <option>Nagaland-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Orissa-</i></font></option>
+                                        <option>Bhubaneshwar</option>
+                                        <option>Cuttak</option>
+                                        <option>Paradeep</option>
+                                        <option>Puri</option>
+                                        <option>Rourkela</option>
+                                        <option>Orissa-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Punjab-</i></font></option>
+                                        <option>Amritsar</option>
+                                        <option>Bathinda</option>
+                                        <option>Chandigarh</option>
+                                        <option>Jalandhar</option>
+                                        <option>Ludhiana</option>
+                                        <option>Mohali</option>
+                                        <option>Pathankot</option>
+                                        <option>Patiala</option>
+                                        <option>Punjab-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Rajasthan-</i></font></option>
+                                        <option>Ajmer</option>
+                                        <option>Jaipur</option>
+                                        <option>Jaisalmer</option>
+                                        <option>Jodhpur</option>
+                                        <option>Kota</option>
+                                        <option>Udaipur</option>
+                                        <option>Rajasthan-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Sikkim-</i></font></option>
+                                        <option>Gangtok</option>
+                                        <option>Sikkim-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Tamil Nadu-</i></font></option>
+                                        <option>Chennai</option>
+                                        <option>Coimbatore</option>
+                                        <option>Cuddalore</option>
+                                        <option>Erode</option>
+                                        <option>Hosur</option>
+                                        <option>Madurai</option>
+                                        <option>Nagerkoil</option>
+                                        <option>Ooty</option>
+                                        <option>Salem</option>
+                                        <option>Thanjavur</option>
+                                        <option>Tirunalveli</option>
+                                        <option>Trichy</option>
+                                        <option>Tuticorin</option>
+                                        <option>Vellore</option>
+                                        <option>Tamil Nadu-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Tripura-</i></font></option>
+                                        <option>Agartala</option>
+                                        <option>Tripura-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Union Territories-</i></font></option>
+                                        <option>Chandigarh</option>
+                                        <option>Dadra & Nagar Haveli-Silvassa</option>
+                                        <option>Daman & Diu</option>
+                                        <option>Delhi</option>
+                                        <option>Pondichery</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Uttar Pradesh-</i></font></option>
+                                        <option>Agra</option>
+                                        <option>Aligarh</option>
+                                        <option>Allahabad</option>
+                                        <option>Bareilly</option>
+                                        <option>Faizabad</option>
+                                        <option>Ghaziabad</option>
+                                        <option>Gorakhpur</option>
+                                        <option>Kanpur</option>
+                                        <option>Lucknow</option>
+                                        <option>Mathura</option>
+                                        <option>Meerut</option>
+                                        <option>Moradabad</option>
+                                        <option>Noida</option>
+                                        <option>Varanasi/Banaras</option>
+                                        <option>Uttar Pradesh-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Uttaranchal-</i></font></option>
+                                        <option>Dehradun</option>
+                                        <option>Roorkee</option>
+                                        <option>Uttaranchal-Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-West Bengal-</i></font></option>
+                                        <option>Asansol</option>
+                                        <option>Durgapur</option>
+                                        <option>Haldia</option>
+                                        <option>Kharagpur</option>
+                                        <option>Kolkatta</option>
+                                        <option>Siliguri</option>
+                                        <option>West Bengal - Other</option>
+                                        <option disabled="disabled" style="background-color:#3E3E3E"><font color="#FFFFFF"><i>-Other-</i></font></option>
+                                        <option>Other</option>
+                                        </select>
                                    </div>
                                   
                                 </div>
@@ -106,48 +338,97 @@
             </div>
         </section>
         <marquee>UNDER CONSTRUCTION</marquee>
-        <section id="mobaileapps" class="mobailapps">
-            <div class="slider_overlay">
+       
+        <section id="abouts" class="abouts">
                 <div class="container">
                     <div class="row">
-                        <div class="main_mobail_apps_content wow zoomIn">
-                            <div class="col-md-5 col-sm-12 text-center">
-                                <img src="voucher9.jpg" alt="" />
+                        <div class="abouts_content">
+                            <div class="col-md-6">
+                                <div class="single_abouts_text text-center wow slideInLeft" data-wow-duration="1s">
+                                    
+                                        <div class="cursive-up">
+                                                <p> Your business across 15,000, 30,000, 50,000 and
+                                                        100,000 customers.
+                                                                how many customers you would like to
+                                                        reach, and we will put your business (vouchers)
+                                                        into their hands.</p>
+                                                </div>
+                                                        <div class="cursive">
+                                                <h4>We will design, print and
+                                                        distribute your
+                                                        vouchers. We will reach
+                                                        it to the hands of the
+                                                        customers.</h4>
+                                                        </div>
+                                                <div class="text-center"><a title="" target="" href="" class="btn  btn-large btn-custom" style="margin-top: 10px;margin-bottom: 20px;background-color: #eefd12;">Advertise with Us</a>
+                                                </div>
+                                </div>
                             </div>
-                            <div class="col-md-7 col-sm-12">
-                                <div class="single_monail_apps_text">
-                                    <h4> Put your Business’ Ad in the door of 15,000 homes in your community!</h4>
-                                    <h1> <span>We Design, Print & Distribute your Voucher</span></h1>
-                                    <div class="text-center"><a title="" target="" href="" class="btn  btn-large btn-custom" style="margin-top: 10px;margin-bottom: 20px;background-color: #eefd12;">Advertise with Us</a>
-                                    </div>
-
-                                   
+    
+                            <div class="col-md-6">
+                                <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
+                                        <img src="voucher9.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
+            </section>
+        <section class="slider-pic">
+                <div class="slider-head">
+                        <h3>We are trusted by the best</h3>
+                        </div>
+           <!-- Slideshow container -->
+           <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="slidercrop1.png" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="slidercrop2.png" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="slidercrop3.png" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
         </section>
         <section id="grow" class="grow">
         <div class="grow-business">
-            <h4 class="grow-h">Grow Your Business With 3 Easy Steps!</h4>
+            <h4 class="grow-h">Grow your business in very easy steps!</h4>
             <div class="grow-flex">
                 <div class="container">
                     <h1>STEP 1</h1>
-                    <p>Choose the area you’d like
-                            your publication distributed</p>
+                    <p>Tell us your location and area.</p>
                             <a href="#"><img src="step1-1.png" height="200px" width="200px" alt="" /></a>
                 </div>
                 <div class="container">
                         <h1>STEP 2</h1>
-                        <p>Choose your
-                                advertising option</p>
+                        <p>Choose your campaign. How many Customers you
+                                want to reach</p>
                                 <a href="how.html"><img src="step2.png" height="200px" width="200px" alt="" /></a>
                 </div>
 <div class="container">
         <h1>STEP 3</h1>
-        <p>We Handle the Rest!
+        <p>Leave the rest to us
 
             </p>
             <a href="contact.html"><img src="step3-1.png" height="200px" width="200px" alt="" /></a>
@@ -156,85 +437,83 @@
 
         </div>
         </section>
-        <section id="mobaileapps" class="mobailapps">
-            <div class="slider_overlay">
+        
+        
+        <section id="abouts" class="abouts">
                 <div class="container">
-                    <div class="gdp">
-                        <img src="gdp.png" height="80px" alt="" />
-                        <h4>Great Discount Voucher</h4>
-                    </div>
-                    <div class="row">
-                        <div class="main_mobail_apps_content wow zoomIn">
-                            <div class="col-md-5 col-sm-12 text-center">
-                                <img src="GDP MOBILE WITH DOWNLOAD NOW.png" height="300px" alt="" />
-                                <p>Addressing the 5T’s – <b>Time, Type, Tariff, Technology
-                                    and Travel</b> between the customer and business
-                                    relationship.</p>
-                                    <p><div class="footer_socail_icon">
-                                            <a href=""><i class="fa fa-facebook"></i></a>
-                                            <a href=""><i class="fa fa-instagram"></i></a>
-                                            <a href=""><i class="fa fa-twitter"></i></a>
-                                            <a href=""><i class="fa fa-linkedin"></i></a>
-                                           
-                                            
-                                            
-                                        </div></p>
-                            </div>
-                            <div class="col-md-7 col-sm-12">
-                                <div class="single_monail_apps_text">
-                                    <h4></h4>
-                                   
-                                    <p >The Business is listed on <b class="gdp-color">Great Discount Place</b> to cater to a larger number of
-                                        consumers and repeat customers.
-                                        
-                                        <b class="gdp-color">Great Discount Place</b> does not charge a commission and a revenue share and
-                                        the listing of the business is free.
-                                        
-                                        100% value for the business and a win/win for the participating businesses.</p>
-                                  
-
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-        </section> 
-        <section id="mobaileapps" class="mobailapps">
-                <div class="slider_overlay">
-                    <div class="container">
                         <div class="gdp">
-                          
-                            <h4>Here what our clients have to say about Fast Voucher</h4>
-                        </div>
-                        <div class="row">
-                            <div class="main_mobail_apps_content wow zoomIn">
-                                <div class="col-md-5 col-sm-12 text-center">
-                                        <img src="youtubepic.webp" height="300px" alt="" />
-                                   
-                                      
+                                <div class="gdp-logo-p">
+                                        <img src="gdp.png" height="80px" alt="" />
+                                        </div>
+                                
+                                <h4>Technology Partner</h4>
+                            </div>
+                    <div class="row">
+                        <div class="abouts_content">
+                            <div class="col-md-6">
+                                <div class="single_abouts_text text-center wow slideInLeft" data-wow-duration="1s">
+                                    
+                                        <p><b>Great Discount Place</b></p>
+                                        <img src="GDP MOBILE WITH DOWNLOAD NOW.png" height="400px" alt="" />
+                                        <p>Addressing the 5T’s – <b>Time, Type, Tariff, Technology
+                                            and Travel</b> between the customer and business
+                                            relationship.</p>
+                                            <p><div class="footer_socail_icon">
+                                                    
+                                                    <a href="" target="_blank"><i class="fa fa-android"></i></a>
+                                                    <a href="" target="_blank"><i class="fa fa-apple"></i></a>
+                                                    
+                                                </div></p>
                                 </div>
-                                <div class="col-md-7 col-sm-12">
-                                    <div class="single_monail_apps_text">
-                                        
+                            </div>
+    
+                            <div class="col-md-6">
+                                <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
+                                        <p >The Business is listed on <b class="gdp-color">Great Discount Place</b> to cater to a larger number of
+                                            consumers and repeat customers.
                                             
+                                            <b class="gdp-color">Great Discount Place</b> does not charge a commission and a revenue share and
+                                            the listing of the business is free.
+                                            
+                                            100% value for the business and a win/win for the participating businesses.</p>
+                                            <p><a href="https://www.instagram.com/indiagdp/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>.   Great Discount Place</p>
+                                          
+                                            <p><a href="" target="_blank"><i class="fa fa-linkedin"></i></a>.   @indiagdp</p>
+                                            <p><a href="https://www.facebook.com/IndiaGDP/" target="_blank"><i class="fa fa-facebook"></i></a>.   @indiagdp</p>
+                                            <p><a href="" target="_blank"><i class="fa fa-twitter"></i></a>.   Great Discount Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+       
+    
+           
+            <section id="abouts" class="abouts">
+                    <div class="container">
+                        <div class="row">
+                            <div class="abouts_content">
+                                <div class="col-md-6">
+                                    <div class="single_abouts_text text-center wow slideInLeft" data-wow-duration="1s">
+                                        
+                                            <img src="Icon.png" height="200px" alt="" />
                                             <p>This simple solution has solved a chronic pain point
                                                     and has bridged the gap between the customer
                                                     & the business on real time basis for real
                                                     interaction.</p>
-                                      
-    
-                                       
+                                    </div>
+                                </div>
+        
+                                <div class="col-md-6">
+                                    <div class="single_abouts_text wow slideInRight" data-wow-duration="1s">
+                                            <img src="youtubepic.webp" height="300px" alt="" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-            </section> 
-           
-            
+                </section>
        
         
 
@@ -250,40 +529,40 @@
                         <div class="col-md-12">
                             <div class="head_title text-center">
                                 <h4>Instagram</h4>
-                                <h3>follow Us On @fastvoucher</h3>
+                                <h3>follow Us On <a href="https://www.instagram.com/fastvoucher/?hl=en" target="_blank" >@fastvoucher</a></h3>
                             </div>
 
                             <div class="main_portfolio_content">
                                 <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-                                    <img src="voucher9.jpg" alt="" />
+                                    <img src="fastinsta4.jpg" alt="" />
                                     <div class="portfolio_images_overlay text-center">
                                         <p>@fastvoucher is coming to a city near you!  We make your business stand out! Contact us for all your direct marketing needs!  What do we offer?</p>
                                       
-                                        <a href="" class="btn btn-primary">Click here</a>
+                                        <a href="https://www.instagram.com/fastvoucher/?hl=en" target="_blank" class="btn btn-primary">Click here</a>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-                                    <img src="voucher1.jpg" alt="" />
+                                    <img src="fastinsta2.jpg" alt="" />
                                     <div class="portfolio_images_overlay text-center">
                                         <p>@fastvoucher is coming to a city near you!  We make your business stand out! Contact us for all your direct marketing needs!  What do we offer?</p>
                                        
-                                        <a href="" class="btn btn-primary">Click here</a>
+                                        <a href="https://www.instagram.com/fastvoucher/?hl=en" target="_blank" class="btn btn-primary">Click here</a>
                                     </div>								
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-                                    <img src="voucher9.jpg" alt="" />
+                                    <img src="fast voucher 111.jpg" alt="" />
                                     <div class="portfolio_images_overlay text-center">
                                         <p>@fastvoucher is coming to a city near you!  We make your business stand out! Contact us for all your direct marketing needs!  What do we offer?</p>
                                       
-                                        <a href="" class="btn btn-primary">Click here</a>
+                                        <a href="https://www.instagram.com/fastvoucher/?hl=en" target="_blank" class="btn btn-primary">Click here</a>
                                     </div>								
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-xs-6 single_portfolio_text">
-                                    <img src="voucher1.jpg" alt="" />
+                                    <img src="fastinsta1.jpg" alt="" />
                                     <div class="portfolio_images_overlay text-center">
                                         <p>@fastvoucher is coming to a city near you!  We make your business stand out! Contact us for all your direct marketing needs!  What do we offer?</p>
                                        
-                                        <a href="" class="btn btn-primary">Click here</a>
+                                        <a href="https://www.instagram.com/fastvoucher/?hl=en" target="_blank" class="btn btn-primary">Click here</a>
                                     </div>								
                                 </div>
                                 
@@ -317,12 +596,15 @@
                                         <span>Te elit putent propriae eum,</span>
                                         <span>aliquip nominati</span>
                                         <span class="phone_email">phone: 00 000 000</span>
-                                        <span>Email: support@templatemela.com</span></p>
+                                        <span>Email: support@templatemela.com</span>
+                                        <span>Fast Voucher is owned and operated by Heavy Hands Entertainment Pvt Ltd</span>
+
+                                                <span><a href="">www.heavyhands.in</a></span></p>
                                 </div>
 
                                 <div class="footer_socail_icon">
-                                    <a href=""><i class="fa fa-facebook"></i></a>
-                                    <a href=""><i class="fa fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/fastvoucher/"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/fastvoucher/?hl=en"><i class="fa fa-instagram"></i></a>
                                     <a href=""><i class="fa fa-twitter"></i></a>
                                     <a href=""><i class="fa fa-linkedin"></i></a>
                                    
@@ -346,8 +628,7 @@
                                             Technology</a></li>
                                         <li><a href="how.html">How do Great Discount Place and FV work?</a></li>
                                         <li><a href="contact.html">Contact Us</a></li>
-                                        <li><a href="">Business Testimonial</a></li>
-                                        <li><a href="">Customer Testimonial</a></li>
+                                       
                                 </div>
                             </div>
                         </div>
@@ -387,5 +668,34 @@
         <script src="assets/js/wow/wow.min.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            
     </body>
 </html>
