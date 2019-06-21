@@ -32,6 +32,9 @@ PRE LOADER
 .grow-business {
     text-align: center;
 }
+.main_portfolio_content img {
+    padding-right: 15px;
+}
 .preloader {
     position: fixed;
     top: 0;
