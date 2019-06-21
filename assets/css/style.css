@@ -694,11 +694,11 @@ marquee {
     padding-left: 300px;
 }
 .slider{
-	background:url(bannerrr.jpg center center no-repeat;
+	background:url(bannerrr.jpg) center center no-repeat;
 	background-size:cover;
 }
 .about-slider {
-    background:url(bannerrr.jpg center center no-repeat;
+    background:url(bannerrr.jpg) center center no-repeat;
 	background-size:cover;
 }
 
